@@ -1,0 +1,31 @@
+{
+  "name": "gulp-test",
+  "version": "0.0.8",
+  "description": "setting up gulp tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishalShokeen/gulp-test.git"
+  },
+  "author": "Vishal Shokeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VishalShokeen/gulp-test/issues"
+  },
+  "homepage": "https://github.com/VishalShokeen/gulp-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "conventional-changelog": "^0.5.1",
+    "conventional-github-releaser": "^0.5.0",
+    "fs": "0.0.2",
+    "gulp-bump": "^1.0.0",
+    "gulp-git": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.1.5"
+  }
+}
